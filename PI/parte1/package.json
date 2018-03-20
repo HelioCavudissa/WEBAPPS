@@ -1,0 +1,17 @@
+{
+  "name": "COIMA",
+  "version": "1.0.0",
+  "description": "",
+  "main": "movieWebApp.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "handlebars": "^4.0.11",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodeunit"
+  },
+  "author": "",
+  "license": ""
+}
