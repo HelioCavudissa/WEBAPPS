@@ -1,13 +1,13 @@
 module.exports = Cinema
 
-function Cinema(name,city,rooms) {
+function Cinema(name,city,id) {
     this.name = name
     this.city = city
-    this.rooms = rooms
+    this.id=id
+
 }
 
 Cinema.prototype.toString = function () {
-    let str = ''
-    this.rooms.forEach(s=> str += s.toString())
-    return `{name: ${this.name}, city: ${this.city}, rooms: [ ${str} ]}`
+
+    return `{name: ${this.name}, city: ${this.city}, id: ${this.id}}`
 }
